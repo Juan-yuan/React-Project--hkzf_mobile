@@ -1,0 +1,27 @@
+.root {
+  position: relative;
+  z-index: 3;
+  height: 40px;
+  z-index: 100px;
+}
+
+.mask {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: #fff;
+}
+
+:global(.am-flexbox.am-flexbox-align-center){
+  text-align: center;
+}

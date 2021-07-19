@@ -1,0 +1,9 @@
+.newBar {
+   color: #333;
+   background-color: #f6f5f6;
+
+
+}
+.newBar :global(.am-navbar-title) {
+    color:#333;
+}

@@ -1,0 +1,41 @@
+.header {
+    height: 45px;
+    padding:0 10px;
+    background: #f6f5f6;
+
+}
+
+.searchHeader {
+    position: relative;
+    top:0;
+    padding:0;
+    flex:1;
+}
+
+.header :global(.icon-back){
+    font-size: 16px;
+    color: #999;
+}
+.searchHeader :global(.icon-map){
+    font-size:25px;
+    color: #00ae66;
+}
+.searchHeader :global(.icon-seach){
+    vertical-align: middle;
+}
+.searchHeader :global(.icon-arrow){
+    margin-left: 2px;
+    font-size: 12px;
+    color: #7f7f80;
+  }
+
+  .houseItems {
+      padding: 0 15px;
+  }
+
+  .loading {
+      line-height: 120px;
+      text-align: center;
+      height: 110px;
+      background-color: #f6f5f6;
+  }
